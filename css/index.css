@@ -1,0 +1,11 @@
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.float {
+    float: left;
+}
