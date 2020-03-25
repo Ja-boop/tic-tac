@@ -10,22 +10,39 @@
 </head>
 
 <body>
-    <div id="square-row-1" class="float">
-        <div class=square name="cuadrado"></div>
-        <div class=square name="cuadrado"></div>
-        <div class=square name="cuadrado"></div>
-    </div>
-    <div id="square-row-2" class="float">
-        <div class=square name="cuadrado"></div>
-        <div class=square name="cuadrado"></div>
-        <div class=square name="cuadrado"></div>
-    </div>
-    <div id="square-row-3" class="float">
-        <div class=square name="cuadrado"></div>
-        <div class=square name="cuadrado"></div>
-        <div class=square name="cuadrado"></div>
-    </div>
+    <section>
+        <h1 id="titulo" class="game--title">
+            Tic-Tac-Toe
+        </h1>
+        <h2 class="game--status"></h2>
 
+        <div class="game--container">
+            <div class=square data-cell-index="0"></div>
+            <div class=square data-cell-index="1"></div>
+            <div class=square data-cell-index="2"></div>
+            <div class=square data-cell-index="3"></div>
+            <div class=square data-cell-index="4"></div>
+            <div class=square data-cell-index="5"></div>
+            <div class=square data-cell-index="6"></div>
+            <div class=square data-cell-index="7"></div>
+            <div class=square data-cell-index="8"></div>
+        </div>
+
+        <div id="espacios">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <button class="reiniciar-juego">Reiniciar Juego</button>
+    </section>
 
 
     <script src='src/index.js'></script>
